@@ -19,19 +19,21 @@ This project is a Python-based webscraper tool that extracts job listings relate
 
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/your-username/python-job-scraper.git
+    git clone https://github.com/angelshinh1/Web_Scraper_Python.git
     ```
 2. **Navigate to the Project Directory**:
     ```bash
-    cd python-job-scraper
+    cd Web_Scraper_Python
     ```
 3. **Install Required Libraries**:
     ```bash
-    pip install -r requirements.txt
+    pip install requests
+    pip install beautifulsoup4
+    pip install lxml
     ```
 4. **Run the Script**:
     ```bash
-    python scraper.py
+    python main.py
     ```
 5. **Follow the Prompts**: Enter a skill you want to filter out, and the script will extract and save relevant job listings.
 
@@ -44,5 +46,5 @@ This project is a Python-based webscraper tool that extracts job listings relate
 
 You can install the required libraries using:
 ```bash
-pip install requests bs4 lxml
+pip install requests beautifulsoup4 lxml
 
